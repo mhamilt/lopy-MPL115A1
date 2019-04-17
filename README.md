@@ -2,7 +2,7 @@
 
 ## Credits
 
-Based on original code from the [hackscribble microbit-MPL115A1-barometer repo](https://github.com/hackscribble/microbit-MPL115A1-barometer) and it's for for the [ESP8266 by flynnguy](https://github.com/flynnguy/esp8266-MPL115A1-barometer)
+Based on original code from the [hackscribble microbit-MPL115A1-barometer repo](https://github.com/hackscribble/microbit-MPL115A1-barometer) and it's fork for the [ESP8266 by flynnguy](https://github.com/flynnguy/esp8266-MPL115A1-barometer)
 
 ## Usage
 
