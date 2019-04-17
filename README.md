@@ -10,14 +10,14 @@ Very little has changed to adapt for the LoPy. Currently the code uses the SPI d
 
 If using the default pins, the connections are as follows
 
-MPL115A1 Pin| Sparkfun MPL115A1 |LoPy Pin | Exp Board Pin
-SCLK| SCK | P10 | G17
-MISO| SDO | P11 | G4
-MOSI| SDI | P14 | G22
-CS| CSN | P12 | G20
-SHDN  | SDN | 3v | 3v
-VDD| VDD | 3V | 3V
-GND| GND | GND | GND
+MPL115A1 Pin| Sparkfun MPL115A1 |LoPy Pin | Exp Board Pin |
+SCLK| SCK | P10 | G17 |
+MISO| SDO | P11 | G4 |
+MOSI| SDI | P14 | G22 |
+CS| CSN | P12 | G20 |
+SHDN  | SDN | 3v | 3v |
+VDD| VDD | 3V | 3V |
+GND| GND | GND | GND |
 
 Since the Sparkfun MPL115A1 breakout was being used for this project there is an additional `SDN`/`SHDN` pin. This pin can be tied to `VDD` to avoid confusion. The `SDN`/`SHDN` pin activates the breakout of voltage is `HIGH` and disables if `LOW`
 
